@@ -1,0 +1,33 @@
+#ccm-toolbar > ul > li:not(.ccm-toolbar-search) {
+    width: 80px !important;
+}
+
+#ccm-toolbar > ul > li > a,span {
+    width: 80px !important;
+    padding-top: 8px !important;
+}
+
+
+#ccm-toolbar > ul > li > a > i:after {
+    white-space: pre;
+}
+
+#ccm-toolbar > ul > li > a > .fa-pencil:after {
+    content: '\A Edit';
+}
+
+#ccm-toolbar > ul > li > a > .fa-cog:after {
+    content: '\A Settings';
+}
+
+#ccm-toolbar > ul > li > a > .fa-plus:after {
+    content: '\A Add';
+}
+
+#ccm-toolbar > ul > li > a > .fa-list-alt:after {
+    content: '\A Pages';
+}
+
+#ccm-toolbar > ul > li > a > .fa-th-large:after {
+    content: '\A Dashboard';
+}
