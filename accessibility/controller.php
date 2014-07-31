@@ -12,7 +12,7 @@ use View;
 class Controller extends Package
 {
 
-    protected $pkgHandle = 'Accessibility';
+    protected $pkgHandle = 'accessibility';
     protected $appVersionRequired = '5.7';
     protected $pkgVersion = '0.1';
 
